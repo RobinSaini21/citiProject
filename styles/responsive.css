@@ -1,0 +1,127 @@
+@media (max-width:767px) {
+    .login_sec {
+        background: url(../img/login_bg.jpg) no-repeat;
+        background-position: top;
+        padding: 0 24px;
+    }
+    .login_slide {
+        display: none;
+    }
+    .login_form {
+        padding: 48px 0 15px;
+    }
+    .login_head {
+        margin: 47px 0 64px;
+    }
+    .logo_img {
+        text-align: center;
+    }
+    .login_form h3 {
+        margin-bottom: 4px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .login_form h3, .login_head p, .login_form label, .form-text, .or span, .no_account p {
+        color: #fff !important;
+    }
+    .login_head p, .login_form .custom-checkbox label, .forgot_link, .no_account p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .login_form .custom-checkbox label, .no_account p {font-weight: 400;}
+    .forgot_link {color: #FF4B22 !important;font-weight: 600;}
+    .check_forgot {
+        margin: 11px 0 58px;
+    }
+    .login_form .mb_17 {
+        margin-bottom: 11px;
+    }
+    .login_btn {
+        text-align: left;
+        padding: 16px 24px;
+    }
+    .login_btn img {
+        margin-left: 10px;
+    }
+    .or {
+        background: url(../img/or_line_mob.svg) no-repeat;
+        background-position: center;
+        margin: 32px 0;
+    }
+    .login_form .custom-checkbox .custom-control-label::before {
+        border: 1.5px solid #2A8ED9;
+    }
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {background: #2A8ED9 !important;}
+    .google_fb {
+        margin: 0 -4px;
+    }
+    .google_fb .col-6 {
+        padding: 0 4px;
+    }
+    .google_fb .btn {
+        font-size: 0;
+        background: linear-gradient(92.11deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.24) 100%);
+        backdrop-filter: blur(10px);
+    }
+    .no_account {
+        margin: 24px 0 22px;
+    }
+    .copy_right {
+        background: #E5E7EB;
+        border-radius: 100px;
+        height: 5px;
+        width: 134px;
+        margin: 0 auto;
+        right: 0;
+        bottom: 8px;
+    }
+    .copy_right p {
+        font-size: 0;
+    }
+    .signup_form .login_head {
+        margin: 0 0 16px;
+    }
+    .signup_logo {
+        max-width: 88px;
+    }
+    .form-control {
+        height: 54px;
+    }  
+    .forgot_page {
+        background: #fff;
+    }  
+    .forgot_page .login_form h3 {
+        color: #111827 !important;
+    }
+    .forgot_page .login_head p {color: #9CA3AF !important;}
+    .forgot_page .login_form label {color: #6B7280 !important;}
+    .forgot_page .login_head {
+        margin: 48px 0 64px;
+    }
+    .forgot_page .login_btn {
+        position: absolute;
+        bottom: 56px;
+    }
+    .back_box {
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: flex!important;
+    }
+    .back_btn {
+        font-size: 0;
+        margin-bottom: 0;
+        width: 36px;
+        height: 36px;
+        border: 1px solid #FF4B22;
+        border-radius: 8px;
+        text-align: center;
+        line-height: 36px;
+    }
+    .back_btn img {
+        margin-right: 0;
+    }
+    .back_box .logo_img {
+        max-width: 90px;
+    }
+}
